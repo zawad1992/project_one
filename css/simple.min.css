@@ -1,0 +1,20 @@
+
+/*!
+ * reparsoft - LESS  last compressed 
+ * @licence reparsoft - v1.0.0 (2015-01-19)
+ * http://56hm.com/ | Licence: MIT
+ */
+ 
+
+
+.tibar-simple { background-color: #e95546 }
+
+.list-aggregate li { border-bottom-color: #e5e5e5 }
+
+.list-aggregate li a { color: #fff }
+
+.list-aggregate li a:hover { color: #fff }
+
+.list-aggregate li p { color: #fff; padding:0 10px; }
+
+.list-aggregate li:hover { background-color: #fc6d58 }

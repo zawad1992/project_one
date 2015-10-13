@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Asian University of Bangladesh</title>
+
+<!-- Bootstrap -->
+<!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/google-apis-font.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="css/placeholder-center.css" rel="stylesheet">
+<!-- Owl Carousel Assets -->
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">
+<!-- <link href="css/google-code-prettify/prettify.css" rel="stylesheet"> -->
+<link href="css/jquerysctipttop.css" rel="stylesheet">
+<link href="css/jquery.lightbox-0.5.css" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui.js"></script>
+
+  <script>
+  $(function() {
+    $( "#date-of-birth" ).datepicker();
+  });
+  </script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-tab.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<!--    <script src="js/prettify.js"></script> 
+      <script src="js/run_prettify.js"></script> 
+      <script src="js/owl.carousel.js"></script> 
+      <script src="js/owl.carousel.min.js"></script> 
+      <script src="js/jquery.marquee.js"></script>
+      <script src="js/jquery.lightbox-0.5.min.js"></script> -->
+</head>
+
+<body>
+<header>
+  <div class="container">
+    <div class="header-top">
+      <div class="col-md-3">
+        <div class="logo"> <a href="#"><img src="images/Asian_University_of_Bangladesh_Logo.jpg" alt="Logo" class="img-responsive"></a> </div>
+      </div>
+      <div class="col-md-5">
+        <div class="name">
+          <h1>ASIAN UNIVERSITY OF BANGLADESH<br>
+            <span>----------------------</span></h1>
+        </div>
+      </div>
+    </div>
+    <!--Header Top-->
+    
+    <nav class="nav-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+    </nav>
+    <!--Navigation--> 
+  </div>
+</header>
+<!--Header-->
+
+<section>
+  <div class="container">
+    <div class="main-body1">
+      <div class="col-lg-1">
+        <aside> </aside>
+      </div>
+      <!--Siderbar-->
+      
+      <div class="col-lg-9">
+        <article>
+          <div class="main-content">
+            <div class="col-lg-12">
+              <div class="form-section">
+                <h2>Registration</h2>
+                <hr>
+                <p>Please fill out this form.</p>
+                <form role="form" class="form-horizontal" action="registration.php" method="post">
+                  <div class="form-group">
+                    <label for="name" class="col-lg-2 control-label">Name:</label>
+                    <div class="col-lg-4">
+                      <input type="text" id="name" name = "name" class="form-control" placeholder="Name" autocomplete = "on" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="col-lg-2 control-label">Email:</label>
+                    <div class="col-lg-4">
+                      <input type="email" id="email" name = "email" class="form-control" placeholder="email" autocomplete = "on" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="password" class="col-lg-2 control-label">Password:</label>
+                    <div class="col-lg-4">
+                      <input type="password" id="password" name ="password" class="form-control" placeholder="Password" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="confirm-password" class="col-lg-2 control-label">Confirm-Password:</label>
+                    <div class="col-lg-4">
+                      <input type="password" id="confirm-password" name ="confirm-password" class="form-control" placeholder="Confirm-Password" required>
+                    </div>
+                  </div>
+                  <!-- For Date Picker --> 
+                  <!-- For Date Picker  -->
+                  
+                  <div class="form-group">
+                    <label for="date-of-birth" class="col-lg-2 control-label">Date-of-Birth:</label>
+                    <div class="col-lg-4" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+                      <input type="text" id="date-of-birth" name ="date_of_birth" class="form-control" placeholder="Date-Of-Birth" size="16" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-no" class="col-lg-2 control-label">Contact-No:</label>
+                    <div class="col-lg-4">
+                      <input type="text" id="contact-no" name ="contact_no" class="form-control" placeholder="contact-no" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="sex" class="col-lg-2 control-label">Sex:</label>
+                    <div class="col-lg-4">
+                      <label class="radio-inline">
+                        <input type="radio" name="sex" value = "1" checked>
+                        Male</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="sex" value = "2">
+                        Female</label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="type" class="col-lg-2 control-label">User Type:</label>
+                    <div class="col-lg-4">
+                      <label class="radio-inline">
+                        <input type="radio" name="user_type" value = "1" >
+                        Admin</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="user_type" value = "2" checked>
+                        User</label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-offset-2 col-lg-8">
+                      <input type="submit" class="btn btn-default btn-lg" value="Submit">
+                      <input type="reset" class="btn btn-default btn-lg" value="Reset" onClick="this.form.reset()">
+                      <input type="button" class="btn btn-default btn-lg" value="Cancel" onClick="history.go(-1);">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!--Form  Section--> 
+              
+            </div>
+          </div>
+        </article>
+        <!--Main Content--> 
+      </div>
+    </div>
+  </div>
+</section>
+<!--Section-->
+
+<div class="col-lg-12">
+  <footer>
+    <div class="container">
+      <div class="ftr-wrapper">
+        <address class="pull-left">
+        <h3>&copy; My School 2015: All rights researved</h3>
+        F-10 Noorjahan Road, Mohammadpur, Dhaka <br>
+        email: <a href="mailto: myschool@mail.com"> myschool.com </a>
+        </address>
+        <div class="col-md-5 pull-right"> <img src="images/logo.png">
+          <p>Designed and Developed by : <a href="http://www.errorpoint.com">ZS Techonology</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer--> 
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
+
+

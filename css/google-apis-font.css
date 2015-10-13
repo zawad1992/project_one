@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Passion One'), local('PassionOne-Regular'), url(http://fonts.gstatic.com/s/passionone/v6/fY6k21F1QT2c_Oc3HRNDwo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Passion One Bold'), local('PassionOne-Bold'), url(http://fonts.gstatic.com/s/passionone/v6/feOcYDy2R-f3Ysy72PYJ2olIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+}
